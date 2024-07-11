@@ -35,8 +35,3 @@ test('set ship direction vertical', () => {
     const ship = Ship(5, 'vertical');
     expect(ship.getDirection()).toBe('vertical');
 });
-
-test.skip('grid columns', () => {
-    const ship = Ship([0, 0], 5, 'horizontal');
-    expect(ship.getGridColumns([0, 0], 5, 'vertical')).toBe(`0/1`);
-});

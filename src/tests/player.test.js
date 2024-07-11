@@ -10,8 +10,3 @@ test('player type works', () => {
     expect(player.getType()).toBe('computer');
 });
 //integration test with gameboatd maybe
-
-test.skip('player has a gameboard', () => {
-    const player = Player('player');
-    expect(player.getBoard().getShipBoard()).toEqual([]);
-});
